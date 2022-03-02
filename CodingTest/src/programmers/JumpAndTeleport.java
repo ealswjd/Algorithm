@@ -15,6 +15,6 @@ public class JumpAndTeleport {
         }
 
         return answer;
-    }
+    }//solution
 
 }//class
