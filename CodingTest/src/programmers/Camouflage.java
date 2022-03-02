@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.HashMap;
 // Level 2. 해시 > 위장
-class Solution_03 {
+class Camouflage {
     public int solution(String[][] clothes) {
         int answer = clothes.length; 
 		HashMap<String, Integer> map = new HashMap<>();
