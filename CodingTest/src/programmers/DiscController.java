@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 // 힙(Heap) > 디스크 컨트롤러
-class Solution_02 {
+class DiscController {
     public int solution(int[][] jobs) {
         // jobs 배열 오름차순 정렬(요청시점 기준)
 		Arrays.sort(jobs, new Comparator<int[]>() {
