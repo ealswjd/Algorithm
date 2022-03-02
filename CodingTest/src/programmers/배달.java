@@ -26,7 +26,7 @@ class Node implements Comparable<Node> {
     public int compareTo(Node o) {
         return this.cost - o.cost;
     }
-}
+}//Node
 
 class Delivery {
 	static List<List<Node>> list = new ArrayList<>(); // 연결 정보
@@ -73,7 +73,7 @@ class Delivery {
             if (num <= K) cnt++; // K번 이하면 cnt 증가
         }
         return cnt;
-    }
+    }//solution
 
     static void dijkstra(int start) {
         PriorityQueue<Node> pq = new PriorityQueue<>();
@@ -97,5 +97,5 @@ class Delivery {
                 }
             }
         }
-    }
+    }//dijkstra
 }
