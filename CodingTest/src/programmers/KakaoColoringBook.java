@@ -3,27 +3,27 @@ package programmers;
 import java.util.LinkedList;
 import java.util.Queue;
 
-//2017 카카오코드 예선 > 카카오프렌즈 컬러링북
+// 2017 카카오코드 예선 > 카카오프렌즈 컬러링북
 public class KakaoColoringBook {
 	static int max; // 가장 넓은 영역
 	static int[][] checked; // 각 영역의 넓이 확인, 방문 여부
 	
 	public static int[] solution(int m, int n, int[][] picture) {
-        int numberOfArea = 0; // 영역 개수
-        max = 0; // 가장 넓은 영역
-        checked = new int[m][n]; // 각 영역의 넓이 확인, 방문 여부
+        	int numberOfArea = 0; // 영역 개수
+        	max = 0; // 가장 넓은 영역
+        	checked = new int[m][n]; // 각 영역의 넓이 확인, 방문 여부
         
-        for(int x=0; x<m; x++) {
-        	for(int y=0; y<n; y++) {
-        		if(picture[x][y] > 0 && checked[x][y] == 0) { // 색칠 되어 있고 방문한 적 없다면
-        			bfs(new Position(x, y), picture, m, n);
-        			numberOfArea++; // 영역 개수 증가
+        	for(int x=0; x<m; x++) {
+        		for(int y=0; y<n; y++) {
+        			if(picture[x][y] > 0 && checked[x][y] == 0) { // 색칠 되어 있고 방문한 적 없다면
+        				bfs(new Position(x, y), picture, m, n);
+        				numberOfArea++; // 영역 개수 증가
+        			}
         		}
         	}
-        }
 
-        return new int[] {numberOfArea, max};
-    }//solution
+        	return new int[] {numberOfArea, max};
+        }//solution
 	
 	static void bfs(Position pos, int[][] picture, int m, int n) {
 		int[] dx = {0, 0, 1, -1}; // 상하
