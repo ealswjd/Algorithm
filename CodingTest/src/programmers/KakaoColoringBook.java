@@ -45,7 +45,7 @@ public class KakaoColoringBook {
 				// 이미 방문을 했는지 같은 영역인지 확인
 				if(checked[nx][ny] > 0 || picture[nx][ny] != picture[x][y]) continue;
 				
-				checked[nx][ny] = ++checked[pos.x][pos.y];	// 영역 넓이 변경			
+				checked[nx][ny] = ++checked[pos.x][pos.y]; // 영역 넓이 변경			
 				q.offer(new Position(nx, ny)); // 큐에 담아주기
 			}
 			max = Math.max(max, checked[x][y]); // 가장 넓은 영역 비교
