@@ -1,5 +1,5 @@
 package programmers;
-
+// https://programmers.co.kr/learn/courses/30/lessons/12980
 // Summer/Winter Coding(~2018) > 점프와 순간 이동
 public class JumpAndTeleport {
 	
