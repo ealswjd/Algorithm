@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.PriorityQueue;
-
+// https://programmers.co.kr/learn/courses/30/lessons/12978
+// Summer/Winter Coding(~2018) > 배달
 class Node implements Comparable<Node> {
     private final int index; // 노드번호
     private final int cost; // 거리(비용)
