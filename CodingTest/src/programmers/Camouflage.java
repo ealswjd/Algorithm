@@ -1,6 +1,7 @@
 package programmers;
 
 import java.util.HashMap;
+// https://programmers.co.kr/learn/courses/30/lessons/42578
 // Level 2. 해시 > 위장
 class Camouflage {
     public int solution(String[][] clothes) {
