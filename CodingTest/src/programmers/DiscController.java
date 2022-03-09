@@ -5,6 +5,7 @@ import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
+// https://programmers.co.kr/learn/courses/30/lessons/42627
 // 힙(Heap) > 디스크 컨트롤러
 class DiscController {
     public int solution(int[][] jobs) {
