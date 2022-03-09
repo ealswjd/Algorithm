@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.LinkedList;
 import java.util.Queue;
-
+// https://programmers.co.kr/learn/courses/30/lessons/1829
 // 2017 카카오코드 예선 > 카카오프렌즈 컬러링북
 public class KakaoColoringBook {
 	static int max; // 가장 넓은 영역
