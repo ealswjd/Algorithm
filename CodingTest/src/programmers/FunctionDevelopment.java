@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.ArrayList;
 
 /* https://programmers.co.kr/learn/courses/30/lessons/42586
- * Lv.2) 스택/큐 > 기능개발  */
+ * Lv.2) 스택/큐 > 기능개발   */
 public class FunctionDevelopment {
 	
 	public int[] solution(int[] progresses, int[] speeds) {
