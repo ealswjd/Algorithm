@@ -3,7 +3,7 @@ package programmers;
 // 2020 KAKAO BLIND RECRUITMENT > 문자열 압축
 public class StringCompress {
 	
-	public int solution(String s) {
+    public int solution(String s) {
         int min = s.length(); // 문자열 s의 길이로 초기화
         int len = min/2; // 길이의 반
         for(int i = 1; i <= len; i++) {
