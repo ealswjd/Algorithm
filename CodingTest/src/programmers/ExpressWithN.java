@@ -9,10 +9,10 @@ public class ExpressWithN {
 	
 	public int solution(int N, int number) {
 		target = number;
-        n = N;
-        dfs(0, 0); // 연산 횟수, 연산 결괏값
-        return (min > 8) ? -1 : min; // 최솟값이 8보다 크면 -1 반환 작으면 min 반환
-    }//solution
+        	n = N;
+        	dfs(0, 0); // 연산 횟수, 연산 결괏값
+        	return (min > 8) ? -1 : min; // 최솟값이 8보다 크면 -1 반환 작으면 min 반환
+        }//solution
 	
 	void dfs(int depth, int prev) {
 		if(depth > 8) return;
