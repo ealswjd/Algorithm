@@ -7,7 +7,7 @@ import java.util.Queue;
  * Lv.2) 2021 카카오 채용연계형 인턴십 > 거리두기 확인하기    */
 public class Distancing {
 	
-	public int[] solution(String[][] places) {
+    public int[] solution(String[][] places) {
         int[] answer = new int[5];
         
         for(int i=0; i<5; i++) {
