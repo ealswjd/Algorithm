@@ -10,8 +10,7 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 /* https://www.acmicpc.net/problem/1753
- * [1753번] 최단 경로 > 최단경로
- */
+ * [1753번] 최단 경로 > 최단경로  */
 public class ShortestPath {
 	static List<ArrayList<Node>> list = new ArrayList<>();
 	static int INF = Integer.MAX_VALUE;
